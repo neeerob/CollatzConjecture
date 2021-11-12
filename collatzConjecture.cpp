@@ -3,8 +3,8 @@
 
 using namespace std;
 
-long axisX[10000];
-long axisY[10000]; 
+long axisX[100000];
+long axisY[100000]; 
 long countClock = 0;
 
 long evenOrOdd(long num){
@@ -58,7 +58,7 @@ int main(){
 
     
 
-    for(long i =0; i<= 10000; i++){
+    for(long i =0; i<= 100000; i++){
         long totalIteration = iteration(num);
         cout<<endl;
         cout<<"Total iteration is "<<totalIteration<<endl;
@@ -71,11 +71,11 @@ int main(){
         }
         num = num+1;
     }
-    for(int i = 0; i<10000; i++){
+    for(int i = 0; i<100000; i++){
         axisX[i] = i;
     }
     cout<<"X and Y axis = ";
-    for(int i = 0; i<10000; i++){
+    for(int i = 0; i<100000; i++){
         cout<<axisX[i]<<" "<<axisY[i]<<" ";
         cout<<endl;
     }
@@ -85,16 +85,16 @@ int main(){
     cout<<"Highest itteration was: "<<highestItteration<<endl;
     cout<<"For initial number "<<initialNum<<endl;
 
-    ofstream myfile ("plots1-10000.txt");
+    ofstream myfile ("plots1-100000.txt");
     if (myfile.is_open())
     {
         myfile << "X,Y asis: \n";
-        for(long i = 1; i < 10000;i++)
+        for(long i = 1; i < 100000;i++)
         {
             myfile << axisX[i]<<" "<<axisY[i]<<" ";
         }
         /* myfile << "\n \n Y asis: \n";
-        for(long i = 0; i <= 10000;i++)
+        for(long i = 0; i <= 100000;i++)
         {
             myfile << axisY[i]<<" ";
         } */
