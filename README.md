@@ -78,6 +78,27 @@ Here is 1st 50 (x,y) values. [x represent a value] [Y represent number of iterat
  
  <img width="824" alt="Dnd_1-1500" src="https://github.com/neeerob/CollatzConjecture/blob/main/scatter%20graph/scatter-plot-8.png">
  
+ **After itterating selecting highest values of y from 1 to 100000 values should look like this.** 
+
+Here is all Y values from only taking highest values. 
+
+
+    
+     3 7 8 16 19 20 23 111 112 115 118 121 124 127 130 143 144 170 178 181 182 208 216 237 261 267 275 278 281 307 310 323 339 350
+    
+    
+  ## Bar graph for consistently highest values of Y:
+  
+  Current hight itteration to next highest itteration. 
+ 
+ <img width="824" alt="Dnd_1-1500" src="https://github.com/neeerob/CollatzConjecture/blob/main/Consistence%20Graph/bar-graph-2.png">
+ 
+  ## Scatter graph for consistently highest values of (X,Y):
+  
+  Current hight itteration to next highest itteration for X and Y values.
+ 
+ <img width="824" alt="Dnd_1-1500" src="https://github.com/neeerob/CollatzConjecture/blob/main/Consistence%20Graph/scatter-plot-9.png">
+ 
  **Thus graphs are created using [This][id/name] website.**
  
  I didn't find any pattern for one highest itteration to next highest itteration. 
