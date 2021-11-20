@@ -101,4 +101,4 @@ Here is all Y values from only taking highest values.
  
  **Thus graphs are created using [This][id/name] website.**
  
- I didn't find any pattern for one highest itteration to next highest itteration. 
+ I didn't find any pattern/function for one highest itteration to next highest itteration. 
